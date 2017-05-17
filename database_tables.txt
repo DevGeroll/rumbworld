@@ -1,0 +1,37 @@
+DATABASE
+Users:
+	id
+	login,
+	email,
+	password
+	
+Characters:
+	id
+	user_id,
+	name,
+	class_id,
+	level,
+	last_zone_id
+	
+Classes:
+	id,
+	name,
+	description,
+	icon
+	
+Zones:
+	id,
+	name,
+	desription,
+	min_level,
+	icon
+	drop_ids
+	
+Inventory:
+	id,
+	user_id,
+	item_id
+	count
+	
+
+

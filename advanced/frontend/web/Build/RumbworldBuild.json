@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "RumbworldBuild.data.unityweb",
+"asmCodeUrl": "RumbworldBuild.asm.code.unityweb",
+"asmMemoryUrl": "RumbworldBuild.asm.memory.unityweb",
+"asmFrameworkUrl": "RumbworldBuild.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
