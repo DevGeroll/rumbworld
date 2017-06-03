@@ -15,7 +15,9 @@ sealed public class Initialiser : MonoBehaviour
             if(m_InitObjects[i] is IInitialized)
                 (m_InitObjects[i] as IInitialized).Init();
         }
-        
+
+        DontDestroyOnLoad(this.gameObject);
+
         Destroy(this);
     }
 
